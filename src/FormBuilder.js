@@ -251,7 +251,7 @@ const MyFormBuilder = () => {
         toolbarItems={items}
         data={formData}
         // onSave={onSave}
-        onChange={(e) => console.log(e)}
+        onChange={(e) => console.log("onchange",e)}
         onSubmit={(e) => console.log(e)}
         saveUrl='./form.json'
     //     edit
